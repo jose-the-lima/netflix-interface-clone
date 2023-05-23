@@ -1,0 +1,72 @@
+:root {
+    --font-non-main: grey;
+    --font-non-main-hover: #ffffff;
+}
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(#060606, #141414, #141414, #141414, #141414, #141414, #141414);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.persons {
+    display: flex;
+}
+
+h1 {
+    color: var(--font-non-main-hover);
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+
+    margin: 10px 0px 28px;
+}
+
+.person-item {
+    margin: 0px 11px;
+    text-align: center;
+    color: var(--font-non-main);
+}
+.person-item img {
+    width: 140px;
+    height: 140px;
+    border-radius: 7px;
+    border: 3px solid transparent;
+}
+.person-item p {
+    margin-top: 5px;
+    font-size: 1.10rem;
+}
+.person-item:hover {
+    color: var(--font-non-main-hover);
+    cursor:pointer;
+}
+.person-item:hover img {
+    border: 3px solid var(--font-non-main-hover);
+}
+
+
+.button-box {
+    text-align: center;
+    margin-top: 75px;
+}
+.button {
+    color: var(--font-non-main);
+
+    padding: 7px 25px;
+    border: 1.7px solid var(--font-non-main);
+    background: transparent;
+    font-size: 1.05rem;
+}
+.button:hover {
+    border: 1.7px solid var(--font-non-main-hover);
+    color: var(--font-non-main-hover);
+    cursor:pointer;
+}
