@@ -11,7 +11,8 @@ body {
     background: #141414
 }
 main {
-    background-image: url("http://occ-0-1850-3852.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRvC3_fXG6Bo4tYxI72geStAo0Gp-QmIujOwVOiZg2ZvH5uKlk2LC3WhkGTtJ4cC4n8-CJ9ZzCYllq6Rd-Lg_KyTkj1dgp5-rcZ5.webp?r=e8f");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(20, 20, 20, 1)) ,
+    url("http://occ-0-1850-3852.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRvC3_fXG6Bo4tYxI72geStAo0Gp-QmIujOwVOiZg2ZvH5uKlk2LC3WhkGTtJ4cC4n8-CJ9ZzCYllq6Rd-Lg_KyTkj1dgp5-rcZ5.webp?r=e8f");
     background-size: cover;
     padding: 0px 55px;
 }
@@ -183,7 +184,8 @@ nav ul li a{
 .in-high-section,
 .watch-again-section,
 .eua-series-section,
-.my-list-section{
+.my-list-section,
+.top-10-series{
     padding: 0 55px 20px 55px;
     margin-bottom: 25px;
     overflow: hidden;
@@ -220,4 +222,22 @@ nav ul li a{
     background: #ff0000;
     width: 70%;
     height: inherit;
+}
+
+
+
+/* Top 10 área */
+.top-10 {
+    display: flex;
+    width: auto;
+}
+
+.top {
+    display: flex;
+    min-width:240px;
+    height: 170px;
+    margin-right: 5px;
+}
+.top img {
+    border-top-right-radius: 3px;
 }
