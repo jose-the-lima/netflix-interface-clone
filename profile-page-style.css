@@ -1,6 +1,7 @@
 :root {
     --font-color-1: #e5e5e5;
     --font-color-2: #ffffff;
+    --footer-color: #808080;
 }
 * {
     box-sizing: border-box;
@@ -240,4 +241,53 @@ nav ul li a{
 }
 .top img {
     border-top-right-radius: 3px;
+}
+
+
+
+
+/*  Footer  */
+
+footer {
+    padding: 80px 170px 5px;
+}
+
+footer section {
+    margin-bottom: 10px;
+}
+
+footer section a {
+    text-decoration: none;
+    color: var(--font-color-2);
+    margin-right: 30px;
+}
+
+.footer-options {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.footer-options article {
+    width: 25%;
+    margin-bottom: 1.05rem;
+}
+.footer-options article a {
+    color: var(--footer-color);
+    font-size: 0.80rem;
+    text-decoration: none;
+}
+
+.footer-code {
+    font-size: 0.90rem;
+    border: 1px solid var(--footer-color);
+    color: var(--footer-color);
+    padding: 7px;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 0.70rem;
+    color: var(--footer-color);
+    margin: 20px 0px 10px;
 }
