@@ -41,11 +41,16 @@ nav ul li a{
     color: var(--font-color-1);
 
     margin-left: 20px;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: .82rem;
+    font-weight: normal;
+    transition: .5s all ease;
+}
+nav ul li a[href="#"]:hover {
+    color: var(--footer-color);
 }
 .active {
     color: var(--font-color-2);
+    font-weight: bold;
 }
 
 
@@ -105,6 +110,8 @@ nav ul li a{
 
     font-size: 16px;
     font-weight: bold;
+
+    cursor: pointer;
 }
 .button-banner span{
     margin-right: 10px;
@@ -112,11 +119,23 @@ nav ul li a{
     align-items: center;
 }
 
+
+.button-first {
+    background: var(--font-color-1);
+    color: #000000;
+}
+.button-first:hover {
+    background: rgba(229, 229, 229, 0.7);
+}
+
 .button-second {
     margin-left: 10px;
 
     background: rgba(109, 109, 110, 0.7);
     color: var(--font-color-2);
+}
+.button-second:hover {
+    background: rgba(109, 109, 110, 0.4);
 }
 
 
@@ -139,6 +158,10 @@ nav ul li a{
     justify-content:center;
     color: var(--font-color-2);
     margin-right: 20px;
+}
+.reload-button:hover {
+    background-color: rgba(229, 229, 229, 0.2);
+    cursor: pointer;
 }
 .reload-button svg {
     width: 19px;
@@ -194,10 +217,42 @@ nav ul li a{
 
 .title-sections{
     font-size: 1.20rem;
-    color: var(--font-color-2);
+    color: var(--font-color-1);
 
     margin-bottom: 10px;
+    display: inline-block;
 }
+.title-sections:hover {
+    cursor: pointer;
+    color: var(--font-color-2);
+}
+
+.catalog-main {
+    position: relative;
+}
+.catalog-main:hover .box-bars {
+    display: flex;
+}
+
+.box-bars {
+    display: none;
+    position: absolute;
+    top: -1.4rem;
+    right: 0;
+}
+
+.bar {
+    width: 12px;
+    height: 2px;
+    background-color:rgba(109, 109, 110, 0.7);
+    margin-right: 1px;
+}
+
+.active-bar {
+    background-color:#e5e5e5;
+}
+
+
 
 .catalog {
     display: flex;
@@ -277,6 +332,9 @@ footer section a {
     font-size: 0.80rem;
     text-decoration: none;
 }
+.footer-options article a:hover {
+    text-decoration: underline;
+}
 
 .footer-code {
     font-size: 0.90rem;
@@ -284,6 +342,9 @@ footer section a {
     color: var(--footer-color);
     padding: 7px;
     text-decoration: none;
+}
+.footer-code:hover {
+    color: var(--font-color-2);
 }
 
 footer p {
