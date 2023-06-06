@@ -1,0 +1,104 @@
+.all {
+    position: relative;
+    padding: 0px 55px;
+    background: #141414;
+}
+
+.header-navigator {
+    padding: 0px 55px;
+    font-weight: bold;
+    position: fixed;
+    background: #141414;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+main {
+    background: none;
+}
+
+
+
+.navigate-for-language {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--font-color-1);
+
+    padding: 20px 0px 40px 0px;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    background: #141414;
+    width: 100%;
+    padding: 30px 55px;
+}
+
+.navigate-for-language h1 {
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+.preferences {
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.dropdown {
+    margin-left: 1rem;
+    background-color: #000000;
+    padding: 5px 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border:1px solid var(--font-color-1);
+}
+.dropdown:nth-of-type(2) {
+    margin-right: 1rem;
+}
+
+.idioma {
+   width: 150px;
+}
+
+.language {
+    width: 250px;
+}
+
+.suggestions {
+    width: 200px;
+}
+
+.seta {
+    width: 1px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ffffff transparent transparent transparent;
+}
+
+
+
+
+
+/* Suggestions área */
+
+.suggestions-for-language {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 170px;
+
+
+}
+
+.suggestion {
+    width: 19.67%;
+    margin-top: 55px;
+}
+.suggestion img {
+    width: 100%;
+}
