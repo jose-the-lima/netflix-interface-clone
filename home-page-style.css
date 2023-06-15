@@ -70,3 +70,8 @@ h1 {
     color: var(--font-non-main-hover);
     cursor:pointer;
 }
+
+
+.link-profile-page {
+    text-decoration: none;
+}
