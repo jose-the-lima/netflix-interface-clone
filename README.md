@@ -1,5 +1,7 @@
 # netflix-interface-clone
 
+## <a href="https://jose-the-lima.github.io/netflix-interface-clone/">Veja o projeto aqui</a>
+
 ### Tecnologias utilizadas no Projeto:
 - HTML
 - CSS
