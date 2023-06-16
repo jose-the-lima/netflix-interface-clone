@@ -2,6 +2,20 @@
 
 ## <a href="https://jose-the-lima.github.io/netflix-interface-clone/">Veja o projeto aqui</a>
 
+## Projeto:
+<div>
+  
+  ### Página de usuários
+  <img src="https://github.com/jose-the-lima/netflix-interface-clone/assets/120755345/d8151f5e-2091-4c44-9120-364ce500bb35">
+  
+  ### Página de perfil
+  <img src="https://github.com/jose-the-lima/netflix-interface-clone/assets/120755345/d54189dd-0b21-4931-8dbf-9c2b81ef8af4">
+  <img src="https://github.com/jose-the-lima/netflix-interface-clone/assets/120755345/ec39ca4e-b0f4-4e19-9bfb-2b13dd2d195d">
+  
+  ### Página de navegação por idiomas
+  <img src="https://github.com/jose-the-lima/netflix-interface-clone/assets/120755345/daa659dd-451f-4142-a39e-217ce1da1b31">
+</div>
+
 ### Tecnologias utilizadas no Projeto:
 - HTML
 - CSS
@@ -18,25 +32,13 @@ Neste projeto foi utilizado:
 - flexbox
 - hyperlinks com a tag <a>
 - colorações e transições para dar um efeito melhor
-- position (tanto absolute quando fixed
+- position (tanto absolute quando fixed)
 - pseudo-classes (hover)
-- transparência
+- transparência com: rgba, linear-gradient
 - overflow
 - E outros também
 
-## Projeto:
-<div>
-  
-  ### Página de usuários
-  <img src="https://github.com/jose-the-lima/netflix-interface-clone/assets/120755345/d8151f5e-2091-4c44-9120-364ce500bb35">
-  
-  ### Página de perfil
-  <img src="https://github.com/jose-the-lima/netflix-interface-clone/assets/120755345/d54189dd-0b21-4931-8dbf-9c2b81ef8af4">
-  <img src="https://github.com/jose-the-lima/netflix-interface-clone/assets/120755345/ec39ca4e-b0f4-4e19-9bfb-2b13dd2d195d">
-  
-  ### Página de navegação por idiomas
-  <img src="https://github.com/jose-the-lima/netflix-interface-clone/assets/120755345/daa659dd-451f-4142-a39e-217ce1da1b31">
-</div>
+
 
 
 
